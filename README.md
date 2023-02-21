@@ -1,6 +1,13 @@
 # media-app
 media app to record video, audio and take a picture.
 
+## getUserMedia
+
+- allows web applications to access the user's camera and microphone in order to capture media streams, which can then be used for real-time communication, recording, or other purposes.
+
+- It provides a way for web applications to access the media devices on a user's computer, including cameras, microphones, and even screens.
+
+
 ## take a picture
 
 
