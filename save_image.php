@@ -22,8 +22,7 @@ else
 	exit(json_encode(['success'=>false, 'reason'=>'only png and jpg mime types are allowed']));
 
 if(strlen(base64_decode($file)) > $maxFileSize )
-	exit(json_encode(['success' => false, 'reason'=>"file size exceeds max size: {$maxFileSize} Mb"]))
-	;
+	exit(json_encode(['success' => false, 'reason'=>"file size exceeds max size: {$maxFileSize} Mb"]));
 
 //remove inline tags and spaces
 $img = str_replace('data:image/png;base64,', '', $file);
